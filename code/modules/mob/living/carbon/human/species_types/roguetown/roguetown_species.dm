@@ -23,6 +23,8 @@
 			return strings("spanish_replacement.json", "full")
 		if("Half Orc accent")
 			return strings("middlespeak.json", "full")
+		if("Akula accent")
+			return strings("axian_replacement.json", "full")
 
 /datum/species/proc/post_accent_treatment(mob/living/carbon/human, message)
 	return message

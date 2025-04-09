@@ -11,6 +11,7 @@
 	/datum/species/lupian,\
 	/datum/species/tabaxi,\
 	/datum/species/vulpkanin,\
+	/datum/species/axian,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
 	/datum/species/anthromorph,\
@@ -36,6 +37,7 @@
 #define RACES_TOLERATED \
 	/datum/species/lizardfolk,\
 	/datum/species/tabaxi,\
+	/datum/species/axian,\
 	/datum/species/anthromorph,\
 	/datum/species/demihuman
 
@@ -86,6 +88,7 @@
 	/datum/species/lupian,\
 	/datum/species/tabaxi,\
 	/datum/species/vulpkanin,\
+	/datum/species/axian,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
 	/datum/species/anthromorph,\
@@ -108,6 +111,7 @@
 	/datum/species/lupian,\
 	/datum/species/tabaxi,\
 	/datum/species/vulpkanin,\
+	/datum/species/axian,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
 	/datum/species/anthromorph,\
@@ -130,6 +134,7 @@
 	/datum/species/lupian,\
 	/datum/species/tabaxi,\
 	/datum/species/vulpkanin,\
+	/datum/species/axian,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
 	/datum/species/anthromorph,\
@@ -146,6 +151,7 @@
 	/datum/species/lupian,\
 	/datum/species/tabaxi,\
 	/datum/species/vulpkanin,\
+	/datum/species/axian,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
 	/datum/species/anthromorph,\
