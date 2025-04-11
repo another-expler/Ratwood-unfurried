@@ -32,21 +32,6 @@
 		/datum/sprite_accessory/tail/husky
 		)
 
-/datum/customizer/organ/tail/tabaxi
-	customizer_choices = list(/datum/customizer_choice/organ/tail/tabaxi)
-
-/datum/customizer_choice/organ/tail/tabaxi
-	name = "Tabaxi Tail"
-	organ_type = /obj/item/organ/tail/cat
-	sprite_accessories = list(
-		/datum/sprite_accessory/tail/catbig,
-		/datum/sprite_accessory/tail/cat,
-		/datum/sprite_accessory/tail/twocat,
-		/datum/sprite_accessory/tail/tiger,
-		/datum/sprite_accessory/tail/leopard,
-		/datum/sprite_accessory/tail/lynx,
-		)
-
 /datum/customizer/organ/tail/lizard
 	customizer_choices = list(/datum/customizer_choice/organ/tail/lizard)
 

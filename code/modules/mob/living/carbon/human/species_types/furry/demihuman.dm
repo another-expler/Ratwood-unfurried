@@ -100,32 +100,6 @@
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
 
-/datum/species/demihuman/get_random_features()
-	var/list/returned = MANDATORY_FEATURE_LIST
-	var/main_color
-	var/random = rand(1,8)
-	//Choose from a variety of mostly brightish, animal, matching colors
-	switch(random)
-		if(1)
-			main_color = ORANGE_FUR
-		if(2)
-			main_color = LIGHTGREY_FUR
-		if(3)
-			main_color = DARKGREY_FUR
-		if(4)
-			main_color = LIGHTORANGE_FUR
-		if(5)
-			main_color = LIGHTBROWN_FUR
-		if(6)
-			main_color = WHITEBROWN_FUR
-		if(7)
-			main_color = DARKBROWN_FUR
-		if(8)
-			main_color = BLACK_FUR
-	returned["mcolor"] = main_color
-	returned["mcolor2"] = main_color
-	returned["mcolor3"] = main_color
-	return returned
 
 /datum/species/demihuman/get_skin_list()
 	return list(

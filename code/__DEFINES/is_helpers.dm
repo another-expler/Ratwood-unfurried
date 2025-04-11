@@ -101,7 +101,7 @@ GLOBAL_LIST_INIT(areas_in_town, typecacheof(list(
 #define iskobold(A) (is_species(A, /datum/species/kobold))
 #define islizardfolk(A) (is_species(A, /datum/species/lizardfolk))
 #define islupian(A) (is_species(A, /datum/species/lupian))
-#define istabaxi(A) (is_species(A, /datum/species/tabaxi))
+
 #define isvulpkanin(A) (is_species(A, /datum/species/vulpkanin))
 #define ismoth(A) (is_species(A, /datum/species/moth))
 

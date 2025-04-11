@@ -204,26 +204,3 @@
 		/datum/sprite_accessory/snout/front/sharplight,
 		/datum/sprite_accessory/snout/front/roundlight,
 		)
-
-
-/datum/customizer/organ/snout/tabaxi
-	customizer_choices = list(/datum/customizer_choice/organ/snout/tabaxi)
-
-/datum/customizer_choice/organ/snout/tabaxi
-	name = "Tabaxian Snout"
-	organ_type = /obj/item/organ/snout/cat
-	sprite_accessories = list(
-	    /datum/sprite_accessory/snout/cat,
-		/datum/sprite_accessory/snout/scanid,
-		/datum/sprite_accessory/snout/scanidalt,
-		/datum/sprite_accessory/snout/scanidalt2,
-		/datum/sprite_accessory/snout/scanidalt3,
-		/datum/sprite_accessory/snout/sharp,
-		/datum/sprite_accessory/snout/round,
-		/datum/sprite_accessory/snout/sharplight,
-		/datum/sprite_accessory/snout/roundlight,
-		/datum/sprite_accessory/snout/front/sharp,
-		/datum/sprite_accessory/snout/front/round,
-		/datum/sprite_accessory/snout/front/sharplight,
-		/datum/sprite_accessory/snout/front/roundlight,
-		)

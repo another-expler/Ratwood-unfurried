@@ -36,20 +36,6 @@
 		/datum/sprite_accessory/ears/wolf
 	)
 
-/datum/customizer/organ/ears/tabaxi
-	customizer_choices = list(/datum/customizer_choice/organ/ears/tabaxi)
-
-/datum/customizer_choice/organ/ears/tabaxi
-	name = "Tabaxi Ears"
-	organ_type = /obj/item/organ/ears/tabaxi
-	sprite_accessories = list(
-		/datum/sprite_accessory/ears/cat,
-		/datum/sprite_accessory/ears/cat_big,
-		/datum/sprite_accessory/ears/cat_normal,
-		/datum/sprite_accessory/ears/lynx,
-		)
-
-
 /datum/customizer/organ/ears/cat
 	customizer_choices = list(/datum/customizer_choice/organ/ears/cat)
 
