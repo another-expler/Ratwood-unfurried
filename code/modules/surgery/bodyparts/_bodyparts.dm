@@ -193,31 +193,6 @@
         return
     return ..()
 
-/obj/item/bodypart/MiddleClick(mob/user, params)
-	var/obj/item/held_item = user.get_active_held_item()
-	if(held_item)
-		if(held_item.get_sharpness() && held_item.wlength == WLENGTH_SHORT)
-			if(!skeletonized)
-				var/used_time = 210
-				if(user.mind)
-					used_time -= (user.mind.get_skill_level(/datum/skill/craft/hunting) * 30)
-				visible_message("[user] begins to butcher \the [src].")
-				playsound(src, 'sound/foley/gross.ogg', 100, FALSE)
-				if(do_after(user, used_time, target = src))
-					if(species_id == "vulpkanin")
-						new /obj/item/natural/fur(get_turf(src))
-
-					if(rotted)
-						var/obj/item/reagent_containers/food/snacks/rogue/meat/steak/rotten_steak = new /obj/item/reagent_containers/food/snacks/rogue/meat/steak(get_turf(src))
-						rotten_steak.become_rotten()
-					else
-						new /obj/item/reagent_containers/food/snacks/rogue/meat/steak(get_turf(src))
-					new /obj/effect/decal/cleanable/blood/splatter(get_turf(src))
-					qdel(src)
-			else
-				to_chat(user, span_warning("There is no meat to butcher."))
-	..()
-
 /obj/item/bodypart/attack(mob/living/carbon/C, mob/user)
 	if(ishuman(C))
 		var/mob/living/carbon/human/H = C

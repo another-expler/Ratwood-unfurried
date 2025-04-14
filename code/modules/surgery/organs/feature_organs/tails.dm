@@ -38,11 +38,6 @@
 /obj/item/organ/tail/avali
 	name = "avali tail"
 
-/obj/item/organ/tail/vulpkanin
-	name = "vulpkian tail"
-	accessory_type = /datum/sprite_accessory/tail/fox
-	accessory_colors = "#fc8803#fff8f0"
-
 /obj/item/organ/tail/tajaran
 	name = "tajaran tail"
 

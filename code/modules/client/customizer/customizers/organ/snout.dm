@@ -26,32 +26,6 @@
 		/datum/sprite_accessory/snout/front/roundlight,
 		)
 
-/datum/customizer/organ/snout/vulpkanin
-	customizer_choices = list(/datum/customizer_choice/organ/snout/vulpkanin)
-
-/datum/customizer_choice/organ/snout/vulpkanin
-	name = "Vulpkian Snout"
-	organ_type = /obj/item/organ/snout/vulpkanin
-	sprite_accessories = list(
-		/datum/sprite_accessory/snout/lcanid,
-		/datum/sprite_accessory/snout/lcanidalt,
-		/datum/sprite_accessory/snout/lcanidstriped,
-		/datum/sprite_accessory/snout/lcanidstripedalt,
-		/datum/sprite_accessory/snout/scanid,
-		/datum/sprite_accessory/snout/scanidalt,
-		/datum/sprite_accessory/snout/scanidalt2,
-		/datum/sprite_accessory/snout/scanidalt3,
-		/datum/sprite_accessory/snout/sharp,
-		/datum/sprite_accessory/snout/round,
-		/datum/sprite_accessory/snout/sharplight,
-		/datum/sprite_accessory/snout/roundlight,
-		/datum/sprite_accessory/snout/vulp,
-		/datum/sprite_accessory/snout/front/sharp,
-		/datum/sprite_accessory/snout/front/round,
-		/datum/sprite_accessory/snout/front/sharplight,
-		/datum/sprite_accessory/snout/front/roundlight,
-		)
-
 /datum/customizer/organ/snout/tajaran
 	customizer_choices = list(/datum/customizer_choice/organ/snout/tajaran)
 

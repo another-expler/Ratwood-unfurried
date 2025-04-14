@@ -8,18 +8,6 @@
 	organ_slot = ORGAN_SLOT_EARS
 	abstract_type = /datum/customizer_choice/organ/ears
 
-/datum/customizer/organ/ears/vulpkanin
-	customizer_choices = list(/datum/customizer_choice/organ/ears/vulpkanin)
-
-/datum/customizer_choice/organ/ears/vulpkanin
-	name = "Vulpkian Ears"
-	organ_type = /obj/item/organ/ears/vulpkanin
-	sprite_accessories = list(
-		/datum/sprite_accessory/ears/fox,
-		/datum/sprite_accessory/ears/vulp,
-		/datum/sprite_accessory/ears/fennec
-		)
-
 /datum/customizer/organ/ears/cat
 	customizer_choices = list(/datum/customizer_choice/organ/ears/cat)
 

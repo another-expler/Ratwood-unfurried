@@ -9,14 +9,6 @@
 	organ_slot = ORGAN_SLOT_TAIL
 	abstract_type = /datum/customizer_choice/organ/tail
 
-/datum/customizer/organ/tail/vulpkanin
-	customizer_choices = list(/datum/customizer_choice/organ/tail/vulpkanin)
-
-/datum/customizer_choice/organ/tail/vulpkanin
-	name = "Vulpkian Tail"
-	organ_type = /obj/item/organ/tail/vulpkanin
-	sprite_accessories = list(/datum/sprite_accessory/tail/fox)
-
 /datum/customizer/organ/tail/lizard
 	customizer_choices = list(/datum/customizer_choice/organ/tail/lizard)
 
