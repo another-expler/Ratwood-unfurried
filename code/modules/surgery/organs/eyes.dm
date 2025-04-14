@@ -136,10 +136,6 @@
 	owner.update_sight()
 
 
-/obj/item/organ/eyes/night_vision/argonian
-	name = "sissean eyes"
-	desc = ""
-
 /obj/item/organ/eyes/night_vision/alien
 	name = "alien eyes"
 	desc = ""

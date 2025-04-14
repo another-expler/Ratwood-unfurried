@@ -7,7 +7,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
 	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
@@ -33,7 +32,6 @@
 	/datum/species/dracon,
 
 #define RACES_TOLERATED \
-	/datum/species/lizardfolk,\
 	/datum/species/anthromorph,\
 	/datum/species/demihuman
 
@@ -80,7 +78,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
 	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
@@ -101,7 +98,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
 	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
@@ -122,7 +118,6 @@
 	/datum/species/elf/wood,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
 	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
@@ -137,7 +132,6 @@
 	/datum/species/human/northern,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
 	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\

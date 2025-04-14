@@ -4,7 +4,6 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
 		/datum/species/tieberian,
-		/datum/species/lizardfolk,
 		/datum/species/human/northern,
 		/datum/species/demihuman,
 		/datum/species/anthromorph,
