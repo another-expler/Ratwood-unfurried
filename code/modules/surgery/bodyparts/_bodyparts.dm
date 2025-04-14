@@ -204,7 +204,7 @@
 				visible_message("[user] begins to butcher \the [src].")
 				playsound(src, 'sound/foley/gross.ogg', 100, FALSE)
 				if(do_after(user, used_time, target = src))
-					if(species_id == "vulpkanin" || species_id == "lupian")
+					if(species_id == "vulpkanin")
 						new /obj/item/natural/fur(get_turf(src))
 
 					if(rotted)

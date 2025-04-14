@@ -7,7 +7,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/demihuman,\
@@ -23,7 +22,6 @@
 	/datum/species/human/halfelf,\
 	/datum/species/dwarf/mountain,\
 	/datum/species/aasimar,\
-	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 
@@ -71,7 +69,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/demihuman,\
@@ -88,7 +85,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/demihuman,\
@@ -105,7 +101,6 @@
 	/datum/species/elf/wood,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/demihuman,\
@@ -117,7 +112,6 @@
 	/datum/species/human/northern,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lupian,\
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/demihuman,\
