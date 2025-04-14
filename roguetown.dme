@@ -1584,7 +1584,6 @@
 #include "code\modules\mob\living\carbon\human\npc\goblin.dm"
 #include "code\modules\mob\living\carbon\human\npc\skeleton.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\demihuman.dm"
-#include "code\modules\mob\living\carbon\human\species_types\furry\dracon.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\kobold.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\lupian.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\moth.dm"

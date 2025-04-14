@@ -41,13 +41,8 @@
 	name = "megamoth wings"
 	desc = "A pair of horrifyingly large, fuzzy wings. They look strong enough to lift you up in the air."
 
-/obj/item/organ/wings/dracon
-	name = "drakian wings"
-	accessory_type = /datum/sprite_accessory/wings/huge/dragon
-
 /obj/item/organ/wings/seelie
 	name = "seelie wings"
 	icon_state = "fairywingsnormal"
 	accessory_type = /datum/sprite_accessory/wings/seelie
 	sellprice = 50
-	

@@ -3,10 +3,8 @@
 	tutorial = "Experts, Professionals, Expensive. Those are the first words that come to mind when the emperiate Grenzelhoft Free Corps is mentioned. While you may work for coin like any common sellsword, maintaining the honor of the Company will be of the utmost priority."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(
-
 		/datum/species/vulpkanin,
 		/datum/species/lupian,
-		/datum/species/dracon,
 		/datum/species/moth, //grenzelmoft?
 		/datum/species/dwarf/mountain,
 		/datum/species/human/northern,
