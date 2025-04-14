@@ -6,7 +6,6 @@
 		/datum/species/tieberian,
 		/datum/species/human/northern,
 		/datum/species/demihuman,
-		/datum/species/anthromorph,
 		/datum/species/elf/dark,
 	)
 	outfit = /datum/outfit/job/roguetown/mercenary/desert_rider

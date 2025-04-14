@@ -11,8 +11,6 @@
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
@@ -32,13 +30,11 @@
 	/datum/species/dracon,
 
 #define RACES_TOLERATED \
-	/datum/species/anthromorph,\
 	/datum/species/demihuman
 
 #define RACES_SHUNNED \
 	/datum/species/elf/dark,\
 	/datum/species/tieberian,\
-	/datum/species/anthromorphsmall,\
 	/datum/species/kobold
 
 #define RACES_VERY_SHUNNED \
@@ -51,7 +47,6 @@
 	/datum/species/seelie	//Seelie having its own global define and nothing else will prevent allowing it via RACES_ALL_KINDS
 
 #define RACES_SMOLFOLK \
-	/datum/species/anthromorphsmall,\
 	/datum/species/kobold
 
 #define RACES_ALL_KINDS list(RACES_SHUNNED, RACES_TOLERATED, RACES_VERY_SHUNNED, RACES_RESPECTED)
@@ -82,8 +77,6 @@
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
 	/datum/species/demihuman,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
@@ -102,8 +95,6 @@
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
@@ -122,7 +113,6 @@
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/seelie,\
@@ -136,7 +126,6 @@
 	/datum/species/vulpkanin,\
 	/datum/species/moth,\
 	/datum/species/dracon,\
-	/datum/species/anthromorph,\
 	/datum/species/demihuman,\
 )
 // For their armour sets. Shouldn't need to define the sub species, but oh well.

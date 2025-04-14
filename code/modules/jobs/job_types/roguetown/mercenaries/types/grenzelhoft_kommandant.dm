@@ -13,7 +13,6 @@
 		/datum/species/dwarf/mountain,
 		/datum/species/human/northern,
 		/datum/species/demihuman,
-		/datum/species/anthromorph,
 	)
 	outfit = /datum/outfit/job/roguetown/mercenary/grenzelhoft_kommandant
 	maximum_possible_slots = 1

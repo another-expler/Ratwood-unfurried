@@ -94,8 +94,6 @@ GLOBAL_LIST_INIT(areas_in_town, typecacheof(list(
 #define isseelie(A) (is_species(A, /datum/species/seelie))
 
 //furry species
-#define isanthromorph(A) (is_species(A, /datum/species/anthromorph))
-#define isanthromorphsmall(A) (is_species(A, /datum/species/anthromorphsmall))
 #define isdemihuman(A) (is_species(A, /datum/species/demihuman))
 #define isdracon(A) (is_species(A, /datum/species/dracon))
 #define iskobold(A) (is_species(A, /datum/species/kobold))
