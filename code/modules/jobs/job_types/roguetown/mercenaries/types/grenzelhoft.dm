@@ -5,7 +5,6 @@
 	allowed_races = list(
 		/datum/species/dwarf/mountain,
 		/datum/species/human/northern,
-		/datum/species/demihuman,
 	)
 	outfit = /datum/outfit/job/roguetown/mercenary/grenzelhoft
 	maximum_possible_slots = 9
@@ -50,10 +49,6 @@
 
 	//Humie grenzelhofts are always set to be, well, grenzelhoft
 	if(ishumannorthern(H))
-		var/list/skin_slop = H.dna.species.get_skin_list()
-		H.skin_tone = skin_slop["Grenzelhoft"]
-		H.update_body()
-	if(isdemihuman(H))
 		var/list/skin_slop = H.dna.species.get_skin_list()
 		H.skin_tone = skin_slop["Grenzelhoft"]
 		H.update_body()

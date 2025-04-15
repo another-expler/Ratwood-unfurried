@@ -5,7 +5,6 @@
 	allowed_races = list(
 		/datum/species/tieberian,
 		/datum/species/human/northern,
-		/datum/species/demihuman,
 		/datum/species/elf/dark,
 	)
 	outfit = /datum/outfit/job/roguetown/mercenary/desert_rider
@@ -31,10 +30,6 @@
 	neck = /obj/item/clothing/neck/roguetown/shalal
 
 	if(ishumannorthern(H))
-		var/list/skin_slop = H.dna.species.get_skin_list()
-		H.skin_tone = skin_slop["Shalvistine"]
-		H.update_body()
-	if(isdemihuman(H))
 		var/list/skin_slop = H.dna.species.get_skin_list()
 		H.skin_tone = skin_slop["Shalvistine"]
 		H.update_body()

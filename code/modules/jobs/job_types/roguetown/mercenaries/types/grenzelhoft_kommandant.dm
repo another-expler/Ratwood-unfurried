@@ -8,7 +8,6 @@
 	allowed_races = list(
 		/datum/species/dwarf/mountain,
 		/datum/species/human/northern,
-		/datum/species/demihuman,
 	)
 	outfit = /datum/outfit/job/roguetown/mercenary/grenzelhoft_kommandant
 	maximum_possible_slots = 1

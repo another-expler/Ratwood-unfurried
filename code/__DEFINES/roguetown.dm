@@ -7,7 +7,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
@@ -22,7 +21,6 @@
 	/datum/species/aasimar,\
 
 #define RACES_TOLERATED \
-	/datum/species/demihuman
 
 #define RACES_SHUNNED \
 	/datum/species/elf/dark,\
@@ -65,7 +63,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/demihuman,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
 	/datum/species/seelie,\
@@ -79,7 +76,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
@@ -93,7 +89,6 @@
 	/datum/species/elf/wood,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/seelie,\
 )
@@ -102,7 +97,6 @@
 	/datum/species/human/northern,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/demihuman,\
 )
 // For their armour sets. Shouldn't need to define the sub species, but oh well.
 #define GOBLIN_RACE_TYPES list(\

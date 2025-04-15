@@ -8,7 +8,6 @@
 	allowed_races = list(
 		/datum/species/dwarf/mountain,
 		/datum/species/human/northern,
-		/datum/species/demihuman,
 		/datum/species/kobold,
 		/datum/species/elf/wood,
 		/datum/species/elf/dark,
@@ -43,10 +42,7 @@
 		var/list/skin_slop = H.dna.species.get_skin_list()
 		H.skin_tone = skin_slop["Grenzelhoft"]
 		H.update_body()
-	if(isdemihuman(H))
-		var/list/skin_slop = H.dna.species.get_skin_list()
-		H.skin_tone = skin_slop["Grenzelhoft"]
-		H.update_body()
+
 	if(iswoodelf(H))
 		H.change_stat("strength", 1)
 		H.change_stat("speed", -1)
