@@ -94,16 +94,7 @@ GLOBAL_LIST_INIT(areas_in_town, typecacheof(list(
 #define isseelie(A) (is_species(A, /datum/species/seelie))
 
 //furry species
-#define isanthromorph(A) (is_species(A, /datum/species/anthromorph))
-#define isanthromorphsmall(A) (is_species(A, /datum/species/anthromorphsmall))
-#define isdemihuman(A) (is_species(A, /datum/species/demihuman))
-#define isdracon(A) (is_species(A, /datum/species/dracon))
 #define iskobold(A) (is_species(A, /datum/species/kobold))
-#define islizardfolk(A) (is_species(A, /datum/species/lizardfolk))
-#define islupian(A) (is_species(A, /datum/species/lupian))
-#define istabaxi(A) (is_species(A, /datum/species/tabaxi))
-#define isvulpkanin(A) (is_species(A, /datum/species/vulpkanin))
-#define ismoth(A) (is_species(A, /datum/species/moth))
 
 //more carbon mobs
 #define ismonkey(A) (istype(A, /mob/living/carbon/monkey))

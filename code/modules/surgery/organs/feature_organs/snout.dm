@@ -15,14 +15,8 @@
 /obj/item/organ/snout/anthro
 	name = "wild-kin snout"
 
-/obj/item/organ/snout/lupian
-	name = "lupian snout"
-
 /obj/item/organ/snout/lizard
 	name = "sissean snout"
-
-/obj/item/organ/snout/vulpkanin
-	name = "vulpkian snout"
 
 /obj/item/organ/snout/tajaran
 	name = "tajaran snout"

@@ -3,7 +3,7 @@
 	tutorial = "You are of those not quite fit for society, those who hide away in the caves and sewers. That society has deemed you lesser. So now, you live amongst your own little communities, far from where the surface dwellers dare see you."
 
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = list(/datum/species/kobold, /datum/species/anthromorphsmall)
+	allowed_races = list(/datum/species/kobold,)
 	category_tags = list(CTAG_REFUGEE)
 
 	maximum_possible_slots = 10
@@ -74,7 +74,7 @@
 			H.change_stat("fortune", 2)
 			ADD_TRAIT(H, TRAIT_WILD_EATER, TRAIT_GENERIC)
 
-		if("Caveling Tinkerer")	
+		if("Caveling Tinkerer")
 			H.mind.adjust_skillrank(/datum/skill/craft/engineering, 3, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/combat/maces, 2, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/reading, 2, TRUE)

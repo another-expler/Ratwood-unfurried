@@ -7,15 +7,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
-	/datum/species/lupian,\
-	/datum/species/tabaxi,\
-	/datum/species/vulpkanin,\
-	/datum/species/moth,\
-	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
-	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
@@ -28,21 +19,12 @@
 	/datum/species/human/halfelf,\
 	/datum/species/dwarf/mountain,\
 	/datum/species/aasimar,\
-	/datum/species/lupian,\
-	/datum/species/vulpkanin,\
-	/datum/species/moth,\
-	/datum/species/dracon,
 
 #define RACES_TOLERATED \
-	/datum/species/lizardfolk,\
-	/datum/species/tabaxi,\
-	/datum/species/anthromorph,\
-	/datum/species/demihuman
 
 #define RACES_SHUNNED \
 	/datum/species/elf/dark,\
 	/datum/species/tieberian,\
-	/datum/species/anthromorphsmall,\
 	/datum/species/kobold
 
 #define RACES_VERY_SHUNNED \
@@ -55,7 +37,6 @@
 	/datum/species/seelie	//Seelie having its own global define and nothing else will prevent allowing it via RACES_ALL_KINDS
 
 #define RACES_SMOLFOLK \
-	/datum/species/anthromorphsmall,\
 	/datum/species/kobold
 
 #define RACES_ALL_KINDS list(RACES_SHUNNED, RACES_TOLERATED, RACES_VERY_SHUNNED, RACES_RESPECTED)
@@ -82,15 +63,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
-	/datum/species/lupian,\
-	/datum/species/tabaxi,\
-	/datum/species/vulpkanin,\
-	/datum/species/moth,\
-	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
-	/datum/species/demihuman,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
 	/datum/species/seelie,\
@@ -104,15 +76,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
-	/datum/species/lupian,\
-	/datum/species/tabaxi,\
-	/datum/species/vulpkanin,\
-	/datum/species/moth,\
-	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/anthromorphsmall,\
-	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
@@ -126,14 +89,6 @@
 	/datum/species/elf/wood,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
-	/datum/species/lupian,\
-	/datum/species/tabaxi,\
-	/datum/species/vulpkanin,\
-	/datum/species/moth,\
-	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/seelie,\
 )
@@ -142,14 +97,6 @@
 	/datum/species/human/northern,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/lizardfolk,\
-	/datum/species/lupian,\
-	/datum/species/tabaxi,\
-	/datum/species/vulpkanin,\
-	/datum/species/moth,\
-	/datum/species/dracon,\
-	/datum/species/anthromorph,\
-	/datum/species/demihuman,\
 )
 // For their armour sets. Shouldn't need to define the sub species, but oh well.
 #define GOBLIN_RACE_TYPES list(\
