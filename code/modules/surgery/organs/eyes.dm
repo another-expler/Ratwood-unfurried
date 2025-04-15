@@ -422,15 +422,6 @@
 	if(!isnull(light_flags))
 		set_light_flags(light_flags)
 
-
-/obj/item/organ/eyes/moth
-	name = "fluvian eyes"
-	desc = ""
-	flash_protect = FLASH_PROTECTION_SENSITIVE
-	accessory_type = /datum/sprite_accessory/eyes/moth
-	eye_color = "000000"
-	second_color = "000000"
-
 /obj/item/organ/eyes/snail
 	name = "snail eyes"
 	desc = ""

@@ -1585,7 +1585,6 @@
 #include "code\modules\mob\living\carbon\human\npc\skeleton.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\demihuman.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\kobold.dm"
-#include "code\modules\mob\living\carbon\human\species_types\furry\moth.dm"
 #include "code\modules\mob\living\carbon\human\species_types\roguetown\roguetown_species.dm"
 #include "code\modules\mob\living\carbon\human\species_types\roguetown\dwarf\_dwarf.dm"
 #include "code\modules\mob\living\carbon\human\species_types\roguetown\dwarf\dwarfm.dm"

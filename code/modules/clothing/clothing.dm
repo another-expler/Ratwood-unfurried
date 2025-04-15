@@ -269,33 +269,6 @@
 	tastes = list("dust" = 1, "lint" = 1)
 	foodtype = CLOTH
 
-/obj/item/clothing/attack(mob/living/M, mob/living/user, def_zone)
-	if(user.used_intent.type != INTENT_HARM && ismoth(M))
-		var/obj/item/reagent_containers/food/snacks/clothing/clothing_as_food = new
-		clothing_as_food.name = name
-		if(clothing_as_food.attack(M, user, def_zone))
-			take_damage(15, sound_effect=FALSE)
-		qdel(clothing_as_food)
-	else if(M.on_fire)
-		if(user == M)
-			return
-		user.changeNext_move(CLICK_CD_MELEE)
-		M.visible_message(span_warning("[user] pats out the flames on [M] with [src]!"))
-		M.adjust_fire_stacks(-2)
-		take_damage(10, BURN, "fire")
-	else
-		return ..()
-
-
-/*	if(damaged_clothes && istype(W, /obj/item/stack/sheet/cloth))
-		var/obj/item/stack/sheet/cloth/C = W
-		C.use(1)
-		update_clothes_damaged_state(FALSE)
-		obj_integrity = max_integrity
-		to_chat(user, span_notice("I fix the damage on [src] with [C]."))
-		return 1*/
-	return ..()
-
 /obj/item/clothing/Destroy()
 	user_vars_remembered = null //Oh god somebody put REFERENCES in here? not to worry, we'll clean it up
 	return ..()
@@ -355,14 +328,14 @@
 /obj/item/clothing/proc/obj_fix(damage_flag)
 	obj_broken = FALSE
 	if(damaged_clothes)
-		update_clothes_damaged_state(FALSE) 
-		
+		update_clothes_damaged_state(FALSE)
+
 /obj/item/clothing/obj_break(damage_flag)
 	if(!damaged_clothes)
 		update_clothes_damaged_state(TRUE)
 	var/brokemessage = FALSE
 	// So, what this does is it iterates over all vars on the object, and then it sets them to zero.
-	// Including the ones that don't represent armor values. This is BAD. 
+	// Including the ones that don't represent armor values. This is BAD.
 	// Also, accessing a type's variables with [] will stop working in 1641. You can do the same with .vars[] there but please don't
 	// Frankly just rewrite armor entirely. This system just sucks. This proc in particular should probably just set a broken flag,
 	// and code taking into account armor should check if an armor piece is not broken.

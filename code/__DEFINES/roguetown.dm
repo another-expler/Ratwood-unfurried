@@ -7,7 +7,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/moth,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
@@ -21,7 +20,6 @@
 	/datum/species/human/halfelf,\
 	/datum/species/dwarf/mountain,\
 	/datum/species/aasimar,\
-	/datum/species/moth,\
 
 #define RACES_TOLERATED \
 	/datum/species/demihuman
@@ -67,7 +65,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/moth,\
 	/datum/species/demihuman,\
 	/datum/species/kobold,\
 	/datum/species/goblinp,\
@@ -82,7 +79,6 @@
 	/datum/species/dwarf/mountain,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/moth,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/kobold,\
@@ -97,7 +93,6 @@
 	/datum/species/elf/wood,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/moth,\
 	/datum/species/demihuman,\
 	/datum/species/halforc,\
 	/datum/species/seelie,\
@@ -107,7 +102,6 @@
 	/datum/species/human/northern,\
 	/datum/species/tieberian,\
 	/datum/species/aasimar,\
-	/datum/species/moth,\
 	/datum/species/demihuman,\
 )
 // For their armour sets. Shouldn't need to define the sub species, but oh well.
